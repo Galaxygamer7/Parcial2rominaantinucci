@@ -1,0 +1,269 @@
+h1{
+    font-family: cursive;
+    color: black;
+    background-color: rgb(206, 207, 207);
+   
+}
+h2{
+    font-family: cursive;
+    text-align: center;
+    color: #333;
+}
+p{
+    color: black;
+
+     
+}
+.fondo{
+    background-color: rgb(35, 94, 94);
+    padding-bottom: 2%;
+    font-size: 300%;
+    font-weight: 700 /* rtl:600 */;
+    background-image:url(img/fondo-de-productos.png); 
+    background-repeat: no-repeat ; 
+    background-size: cover;
+    min-width: 70%;
+    min-height: 100%;
+    background-color: #EBEBEB;
+}
+
+#bienvenidos{
+    padding-top: 16%
+}
+
+
+
+#Productos-para-comprar{
+    padding-bottom: 2%;
+    font-size: 300%;
+    font-weight: 700 /* rtl:600 */;
+    min-width: 70%;
+    min-height: 100%;
+    
+    
+}
+
+
+#section{
+    padding-bottom: 2%;
+    font-size: 300%;
+    font-weight: 700 /* rtl:600 */;
+    background-image:url(img/DONA-DE-CHOCOLATE.gif); 
+    background-repeat: no-repeat ; 
+    background-size: cover;
+    min-width: 70%;
+    min-height: 100%;
+    
+    
+    
+}
+
+#menu{
+    background-color: rgb(48, 40, 30);
+}
+#h2{
+    font-family: cursive;
+    
+
+}
+#imagen-fondo{
+    
+    
+    
+    background-image:url(img/fondo-con-mariposas.png); 
+    background-repeat: no-repeat ; 
+    background-size: cover;
+    min-width: 70%;
+    min-height: 100%;
+    padding-right: 16%;
+    padding-left: 10%;
+    background-color: #EBEBEB;
+}
+
+
+
+#color-de-fondo{
+    background-color: #ffffff;
+    
+    border-radius: 20%;
+    opacity: 90%;
+}
+
+    
+#navbar{
+   color: #273b3b;
+
+}
+#colores{
+    background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0fdbe2, #00aa9c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0fdbe2, #00aa9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+footer{
+    background-color: white;
+    background-image:url(img/footer.png); 
+    background-repeat: no-repeat ; 
+    background-size: cover;
+    min-width: 70%;
+    min-height: 70%;
+    
+    background-color: #EBEBEB;
+}
+
+
+
+.carousel-inner{
+    width: 100%;
+    max-height: 560px;
+    text-align: center center;
+   }
+ 
+
+
+
+.btn-success{
+    background-color: rgb(35, 94, 94);
+    color: rgb(231, 236, 236);
+    width: 40%;
+    height: auto;
+}
+
+
+.fw-normal{
+    padding: 5%;
+}
+#boton-call-to-action{
+    background-color: #3a09eb;
+}
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container1 {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+  }
+
+  .container2
+{
+
+  background-color: rgb(236, 234, 234);
+
+  
+}
+#h2achicar{
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(116, 197, 177);
+   
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    background-color: rgb(213, 254, 251);
+    
+  }
+
+  .button1 {
+    padding: 10px;
+    background-color:rgb(150, 208, 202);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    
+  }
+  #boton2 {
+    padding: 10px;
+    background-color:rgb(150, 208, 202);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-left: 9%;
+    padding-right: 9%;
+    
+    }
+    .card1 {
+        margin-top: 30px;
+        padding: 15px;
+        background-color: #f9f9f9;
+        border-radius: 4px;
+        
+      }
+      .card1 h2 {
+        margin-top: 0;
+      }
+      
+      .card1 p {
+        margin: 5px 0;
+      }
+      .ocultar {
+        display: none;
+       }
+       #borrar {
+        margin-top: 10px;
+        background-color: #18c7a1; /* Rojo */
+        border-radius: 14px;
+        display: flex;
+      
+      }
+
+      @media (max-width: 600px) {
+        .container1 {
+          padding: 15px;
+        }
+      
+        form {
+          font-size: 14px;
+        }
+      
+        .button1 {
+          font-size: 16px;
+        }
+      
+        #boton2 {
+          font-size: 16px;
+          padding-left: 9%;
+          padding-right: 9%;
+        }
+      }
+
+
+      .esconder {
+        display: none;
+      }
+
+
+  
